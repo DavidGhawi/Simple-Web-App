@@ -1,0 +1,102 @@
+.header{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+  font-stretch: 140%;
+  font-size: 200 px;
+  color: whitesmoke;
+  float: center ;
+}
+.body{
+ background-color: black; 
+}
+
+.parallax {
+  background-image: url("park.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	z-index: 50;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.nav-row li {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 10px 2px;
+}
+
+.nav-row li a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: whitesmoke;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.nav-row li a:hover{
+	background: lightgray;
+}
+
+.about-section {
+	display: flex;
+	align-items: center;
+	background-color: #f3f3f3c0;
+	padding: 50px 30px;
+  color: black;
+    border-radius: 20px;
+}
+
+.about-section p, .about-section h2 {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.9em;
+
+}
+
+.opening-time,.contact-address {
+	flex: 1;
+	margin: 30px 20px;
+	font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+	display: block;
+}
+
+	.section-intro {
+		height: 500px;
+	}
+
+	.about-section p,
+	.about-section h3 {
+		font-size: 20px;
+	}
+
+	.about-section {
+		padding: 30px;
+     
+	}
+
+	.section-intro h1 {
+		font-size: 2em;
+	}
+
+	.opening-time p span,
+	.contact-address p span {
+		font-size: 15px;
+		text-align: center;
+    
+	}
